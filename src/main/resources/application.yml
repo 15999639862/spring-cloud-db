@@ -1,1 +1,10 @@
-
+server:
+  port: 8080
+  servlet:
+    context-path: /product-service
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: none
+  
