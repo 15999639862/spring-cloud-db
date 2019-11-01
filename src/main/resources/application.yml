@@ -6,5 +6,5 @@ spring:
   cloud:
     config:
       discovery:
-        enabled: none
+        enabled: true
   
